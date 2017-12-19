@@ -7,9 +7,9 @@
 
 <figure>
     <img src="https://github.com/zhongfei246/QRCode-Test/blob/master/%E4%BA%8C%E7%BB%B4%E7%A0%81-Test/screenshots/1.jpg" width="300" align="center"/>
-    <img src="https://github.com/zhongfei246/QRCode-Test/blob/master/%E4%BA%8C%E7%BB%B4%E7%A0%81-Test/screenshots/2.jpg" width="300" align="center"/>
-     <img src="https://github.com/zhongfei246/QRCode-Test/blob/master/%E4%BA%8C%E7%BB%B4%E7%A0%81-Test/screenshots/3.jpg" width="300" align="center"/>
-     <img src="https://github.com/zhongfei246/QRCode-Test/blob/master/%E4%BA%8C%E7%BB%B4%E7%A0%81-Test/screenshots/4.jpg" width="300" align="center"/>
+    <img src="https://github.com/zhongfei246/QRCode-Test/blob/master/%E4%BA%8C%E7%BB%B4%E7%A0%81-Test/screenshots/2.png" width="300" align="center"/>
+     <img src="https://github.com/zhongfei246/QRCode-Test/blob/master/%E4%BA%8C%E7%BB%B4%E7%A0%81-Test/screenshots/3.png" width="300" align="center"/>
+     <img src="https://github.com/zhongfei246/QRCode-Test/blob/master/%E4%BA%8C%E7%BB%B4%E7%A0%81-Test/screenshots/4.png" width="300" align="center"/>
 </figure>
 
 ## 主要功能模块（Contents）
