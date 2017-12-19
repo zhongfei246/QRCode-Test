@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ScanQRCodeViewController">
+            <connections>
+                <outlet property="QRCodeBgImageView" destination="6m4-4H-JWD" id="MYY-wy-29q"/>
+                <outlet property="QRCodeLineImageView" destination="rbT-FY-sNh" id="wtk-yN-TLE"/>
+                <outlet property="QRCode_imageline_tobuttom_qrcodeimage" destination="xiR-Ro-e4R" id="zXV-qv-jgJ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6m4-4H-JWD">
+                    <rect key="frame" x="87" y="243.5" width="200" height="200"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qrcode_border_image" translatesAutoresizingMaskIntoConstraints="NO" id="vnU-m5-xHx">
+                            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qrcode_border_line" translatesAutoresizingMaskIntoConstraints="NO" id="rbT-FY-sNh">
+                            <rect key="frame" x="0.0" y="198" width="200" height="2"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="2" id="nzq-WG-t73"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="vnU-m5-xHx" firstAttribute="width" secondItem="6m4-4H-JWD" secondAttribute="width" id="0TC-F6-j9Y"/>
+                        <constraint firstItem="vnU-m5-xHx" firstAttribute="leading" secondItem="6m4-4H-JWD" secondAttribute="leading" id="5cK-ox-jHJ"/>
+                        <constraint firstItem="vnU-m5-xHx" firstAttribute="height" secondItem="6m4-4H-JWD" secondAttribute="height" id="B3f-Nb-Hgk"/>
+                        <constraint firstAttribute="height" constant="200" id="Kg8-XS-ihd"/>
+                        <constraint firstItem="rbT-FY-sNh" firstAttribute="centerX" secondItem="vnU-m5-xHx" secondAttribute="centerX" id="SIH-RO-UBW"/>
+                        <constraint firstItem="rbT-FY-sNh" firstAttribute="width" secondItem="vnU-m5-xHx" secondAttribute="width" id="Ygv-CA-f7Z"/>
+                        <constraint firstAttribute="width" constant="200" id="maH-o4-Cof"/>
+                        <constraint firstAttribute="bottom" secondItem="rbT-FY-sNh" secondAttribute="bottom" id="xiR-Ro-e4R"/>
+                        <constraint firstItem="vnU-m5-xHx" firstAttribute="top" secondItem="6m4-4H-JWD" secondAttribute="top" id="zkR-fX-gOp"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="6m4-4H-JWD" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="O4h-uO-bpj"/>
+                <constraint firstItem="6m4-4H-JWD" firstAttribute="centerY" secondItem="Q5M-cg-NOt" secondAttribute="centerY" id="n82-gu-WHU"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="24.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="qrcode_border_image" width="262" height="262"/>
+        <image name="qrcode_border_line" width="231" height="2"/>
+    </resources>
+</document>
