@@ -94,7 +94,7 @@
     [self.QRCodeSession startRunning];
 }
 
-#pragma mark -开始扫描
+#pragma mark -扫描动画
 /**
      开始扫描
  */
@@ -118,7 +118,7 @@
     [self.QRCodeLineImageView.layer removeAllAnimations];
 }
 
-#pragma mark -AVCaptureMetadataOutputObjectsDelegate
+#pragma mark -AVCaptureMetadataOutputObjectsDelegate：代理方法
 -(void)captureOutput:(AVCaptureOutput *)output didOutputMetadataObjects:(NSArray<__kindof AVMetadataObject *> *)metadataObjects fromConnection:(AVCaptureConnection *)connection{
     
     //移除之前绘制的层
