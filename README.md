@@ -2,6 +2,16 @@
 
 这是一个iOS二维码生成、识别。扫描的demo。以下是简要介绍，具体还请看demo源码。如有不对的地方欢迎指正，如有帮助欢迎给star，谢谢！
 
+
+先看几张效果图：
+
+<figure>
+    <img src="https://github.com/zhongfei246/QRCode-Test/blob/master/%E4%BA%8C%E7%BB%B4%E7%A0%81-Test/screenshots/1.jpg" width="300" align="center"/>
+    <img src="https://github.com/zhongfei246/QRCode-Test/blob/master/%E4%BA%8C%E7%BB%B4%E7%A0%81-Test/screenshots/2.jpg" width="300" align="center"/>
+     <img src="https://github.com/zhongfei246/QRCode-Test/blob/master/%E4%BA%8C%E7%BB%B4%E7%A0%81-Test/screenshots/3.jpg" width="300" align="center"/>
+     <img src="https://github.com/zhongfei246/QRCode-Test/blob/master/%E4%BA%8C%E7%BB%B4%E7%A0%81-Test/screenshots/4.jpg" width="300" align="center"/>
+</figure>
+
 ## 主要功能模块（Contents）
 
 * 生成二维码，生成自定义的二维码
